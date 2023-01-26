@@ -1,17 +1,8 @@
 [package]
 description = Detects exfiltration of data over ICMP and writes to notice.log with the details of the exfil like duration, exfil size, source/dest ip, etc.
+credits = Rakesh Passa <rakesh4500@gmail.com>
 tags = ICMP, exfil, exfiltration, protocol misuse
 script_dir = scripts
 version = 1.0
 depends =
     zeek >=3.2.0
-
-[template]
-source = https://github.com/zeek/package-template
-version = v2.0.0
-zkg_version = 2.13.0
-features = plugin
-
-[template_vars]
-name = icmp-exfil-detection
-namespace = icmpdetection
