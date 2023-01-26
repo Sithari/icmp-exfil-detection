@@ -373,8 +373,3 @@ event icmp_echo_reply(c: connection, info: icmp_info, id: count, seq: count, pay
         check_icmp_asym(c, payload);
 
     }
-
-event zeek_init() &priority=5 
-    {
-    }
-
