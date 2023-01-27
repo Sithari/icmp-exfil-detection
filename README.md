@@ -24,7 +24,7 @@ MITRE ATT&CK ID: T1048
 https://attack.mitre.org/techniques/T1048/
 
 ## Install
-zkg install https://github.com/Sithari/icmp-exfil-detection
+```zkg install https://github.com/Sithari/icmp-exfil-detection```
 
 ## How It Works
 
