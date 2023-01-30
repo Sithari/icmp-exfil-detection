@@ -5,23 +5,11 @@ This script identifies data exfiltration over the ICMP protocol. It measures odd
 This is the result of my interest to learn Zeek scripting and also to detect exfiltration of data over a protocol which is unexpected to be used for such. 
 This script will detect exfil/tunneling from the following tools:
 
-https://github.com/sensepost/DET
-
-https://github.com/Vidimensional/Icmp-File-Transfer
-
-https://www.phoenixinfosec.com/post/data-exfiltration-with-hping3
-
-https://github.com/ytisf/PyExfil
-
-https://github.com/FortyNorthSecurity/Egress-Assess
-
-
-Reference to the IETF's RFC for ICMP:
-https://datatracker.ietf.org/doc/html/rfc792
-
-
-MITRE ATT&CK ID: T1048
-https://attack.mitre.org/techniques/T1048/
+- [Data Exfiltration Toolkit](https://github.com/sensepost/DET)
+- [Icmp File Transfer](https://github.com/Vidimensional/Icmp-File-Transfer)
+- [Hping3](https://www.phoenixinfosec.com/post/data-exfiltration-with-hping3)
+- [PyExfil](https://github.com/ytisf/PyExfil)
+- [Egress-Assess](https://github.com/FortyNorthSecurity/Egress-Assess)
 
 ## Install
 ```zkg install https://github.com/Sithari/icmp-exfil-detection```
@@ -56,6 +44,10 @@ Here is an example output based on the [EgressAssess-sample-2mb-text-file.pcap](
   "suppress_for": 0
 }
 ```
+
+## References 
+- [IETF's RFC 792 for ICMP](https://datatracker.ietf.org/doc/html/rfc792)
+- [MITRE ATT&CK T1048](https://attack.mitre.org/techniques/T1048/)
 
 ## Disclaimer
 
